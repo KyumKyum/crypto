@@ -1,4 +1,4 @@
 #! /bin/sh
 
-gcc aes.c -lm -lssl -lcrypto -o aes
-./aes
+gcc cbc.c -lm -lssl -lcrypto -o cbc
+./cbc
